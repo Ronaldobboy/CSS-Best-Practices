@@ -4,9 +4,16 @@ box-sizing: border-box;
 
 .container {
     border: solid lightgrey 4px; 
-   padding: 24px 24px 0px 24px;
-   display: flex;
-   justify-content: space-between;
+   padding: 80px 24px 80px 24px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
 }
  
 .box { 
@@ -22,6 +29,16 @@ width: 45%;
 
 .box-small {
 height: 50px;
+}
+
+.box-tiny{
+    width: 30%;
+    height: 50px;
+}
+
+.tiny-wrapper{
+    display: flex;
+    justify-content: space-between; 
 }
 
 .box-wrapper {
